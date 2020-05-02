@@ -20,15 +20,14 @@
 
 ## Usage
 
-Running locally you need 3 terminals open: one for projfrontend, one for projbackend, and another one for MongoDB back-end. Below are the steps:
+Running locally you need 2 terminals open: one for projfrontend, one for projbackend. Below are the steps:
 
 1. Install Node.js;
 2. Install MongoDB;
 3. `git clone https://github.com/vikassharma1999/Tees-For-Me.git`;
 4. Go to directory `projbackend`, and run `npm install`;
 5. Go to directory `projfrontend`, and run `npm install`;
-6. In one terminal, run `mongod`;
-7. In `projbackend` directory, run `npm start`;
-8. In `projfrontend` directory, run `npm start`;
+6. In `projbackend` directory, run `npm start`;
+7. In `projfrontend` directory, run `npm start`;
 
 Then you are all set. You can go to `http://localhost:3000/` to check you live application.
